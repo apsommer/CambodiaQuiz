@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_padding">16dp</dimen>
+    <dimen name="title_textSize">62sp</dimen>
+    <dimen name="textview_margin">16dp</dimen>
+    <dimen name="textview_textSize">22sp</dimen>
+    <dimen name="checkbox_margin">16dp</dimen>
+    <dimen name="checkbox_padding">8dp</dimen>
+    <dimen name="checkbox_textSize">14sp</dimen>
+    <dimen name="radiobutton_margin">16dp</dimen>
+    <dimen name="radiobutton_padding">8dp</dimen>
+    <dimen name="radiobutton_textSize">14sp</dimen>
+    <dimen name="edittext_margin">16dp</dimen>
+    <dimen name="imageview_margin">16dp</dimen>
+    <dimen name="button_margin">64dp</dimen>
+    <dimen name="final_message_textSize">28sp</dimen>
+    <dimen name="edittext_padding">8dp</dimen>
+</resources>

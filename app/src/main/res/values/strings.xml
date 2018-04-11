@@ -1,0 +1,57 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Titles -->
+    <string name="app_name">Cambodia Quiz</string>
+    <string name="title">Cambodia</string>
+
+    <!-- Question 1 -->
+    <string name="geography">What three countries border Cambodia?</string>
+    <string name="q1a1">Malaysia</string>
+    <string name="q1a2">Vietnam</string>
+    <string name="q1a3">Thailand</string>
+    <string name="q1a4">Laos</string>
+
+    <!-- Question 2 -->
+    <string name="religion">What religion is practiced by 95% of the population?</string>
+    <string name="q2a1">Hinduism</string>
+    <string name="q2a2">Islam</string>
+    <string name="q2a3">Buddhism</string>
+    <string name="q2a4">Christianity</string>
+
+    <!-- Question 3 -->
+    <string name="language">What is the official language?</string>
+    <string name="q3_hints">Khmer</string>
+
+    <!-- Question 4 -->
+    <string name="climate">What is the primary climate?</string>
+    <string name="q4a1">Tropical savanna</string>
+    <string name="q4a2">Tropical rainforest</string>
+    <string name="q4a3">Monsoon</string>
+    <string name="q4a4">Subtropical desert</string>
+
+    <!-- Question 5 -->
+    <string name="politics">What kind of government was established in 1993?</string>
+    <string name="q5a1">Military dictatorship</string>
+    <string name="q5a2">Constitutional republic</string>
+    <string name="q5a3">Constitutional monarchy</string>
+    <string name="q5a4">Islamic republic</string>
+
+    <!-- Question 6 -->
+    <string name="economy">What economic sector represents 90% of the GDP?</string>
+    <string name="q6a1">Forestry</string>
+    <string name="q6a2">Mining</string>
+    <string name="q6a3">Oil and gas</string>
+    <string name="q6a4">Agriculture</string>
+
+    <!-- Question 7 -->
+    <string name="culture">What temple is the largest preservation of ancient Khmer architecture?</string>
+    <string name="q7a1">Banteay Srei</string>
+    <string name="q7a2">Angkor Wat</string>
+    <string name="q7a3">Preah Khan</string>
+    <string name="q7a4">Bayon</string>
+
+    <!-- Quiz result messages -->
+    <string name="check_answers">Check your answers on the Cambodian flag.</string>
+    <string name="correctMessage">You got <xliff:g example="6" id="totalCorrect">%s</xliff:g> out of 7 correct!</string>
+
+</resources>
