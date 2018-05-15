@@ -24,17 +24,19 @@ public class MainActivity extends AppCompatActivity {
         // collect states of checkboxes, radiobuttons, and user text
 
         // Question 1
-        CheckBox q1a2correct = (CheckBox) findViewById(R.id.q1a2); // 3 correct CheckBoxes
+        CheckBox q1a1correct = (CheckBox) findViewById(R.id.q1a1);
+        CheckBox q1a2correct = (CheckBox) findViewById(R.id.q1a2);
         CheckBox q1a3correct = (CheckBox) findViewById(R.id.q1a3);
         CheckBox q1a4correct = (CheckBox) findViewById(R.id.q1a4);
 
         // get checked state of correct answers
-        boolean q1a2 = q1a2correct.isChecked();
-        boolean q1a3 = q1a3correct.isChecked();
-        boolean q1a4 = q1a4correct.isChecked();
+        boolean q1a1 = q1a1correct.isChecked(); // correct answer is False
+        boolean q1a2 = q1a2correct.isChecked(); // correct answer is True
+        boolean q1a3 = q1a3correct.isChecked(); // correct answer is True
+        boolean q1a4 = q1a4correct.isChecked(); // correct answer is True
 
         // increment count if correct
-        if (q1a2 && q1a3 && q1a4) {
+        if (!q1a1 && q1a2 && q1a3 && q1a4) {
             count++; }
 
         // Question 2
@@ -81,7 +83,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Display toast message with quiz results ... "You scored (6) out 7!"
-        Toast.makeText(getApplicationContext(), getString(R.string.correctMessage, Integer.toString(count)), Toast.LENGTH_SHORT).show();
+        if (count == 7) {
+            Toast.makeText(getApplicationContext(), getString(R.string.allCorrectToast, Integer.toString(count)), Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Toast.makeText(getApplicationContext(), getString(R.string.partialCorrectToast, Integer.toString(count)), Toast.LENGTH_SHORT).show();
+        }
 
     }
 }

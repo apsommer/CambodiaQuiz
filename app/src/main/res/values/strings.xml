@@ -52,6 +52,7 @@
 
     <!-- Quiz result messages -->
     <string name="check_answers">Check your answers on the Cambodian flag.</string>
-    <string name="correctMessage">You got <xliff:g example="6" id="totalCorrect">%s</xliff:g> out of 7 correct!</string>
+    <string name="allCorrectToast">Wow, all answers are correct!</string>
+    <string name="partialCorrectToast">You got <xliff:g example="6" id="totalCorrect">%s</xliff:g> out of 7 correct!</string>
 
 </resources>
