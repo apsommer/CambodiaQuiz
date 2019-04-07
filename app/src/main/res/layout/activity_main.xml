@@ -25,13 +25,13 @@
             android:padding="@dimen/title_padding"
             android:text="@string/title"
             android:textAllCaps="false"
-
             android:textColor="@android:color/black"
             android:textSize="@dimen/title_textSize"
             app:fontFamily="@font/bilbo_swash_caps"
             tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
 
         <ImageView
+
             android:id="@+id/geography"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -112,8 +112,8 @@
             android:textSize="@dimen/checkbox_textSize"
             app:fontFamily="@font/adamina" />
 
-
         <ImageView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -285,7 +285,6 @@
                 android:textSize="@dimen/radiobutton_textSize"
                 app:fontFamily="@font/adamina" />
 
-
             <RadioButton
 
                 android:id="@+id/q4a2"
@@ -329,6 +328,7 @@
         </RadioGroup>
 
         <ImageView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -460,7 +460,6 @@
                 android:textSize="@dimen/radiobutton_textSize"
                 app:fontFamily="@font/adamina" />
 
-
             <RadioButton
 
                 android:id="@+id/q6a2"
@@ -530,6 +529,7 @@
             tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
 
         <RadioGroup
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -546,8 +546,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/radiobutton_textSize"
                 app:fontFamily="@font/adamina" />
-
-
+            
             <RadioButton
 
                 android:id="@+id/q7a2"
